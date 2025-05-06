@@ -1,0 +1,145 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.test-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    background-image: url(https://montessori-ami.org/sites/default/files/images/countries/peru.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10% 40%;
+    margin-bottom: 100px;
+}
+
+.title-container {
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    background-color: #ffffff;
+    margin-right: 40%;
+    padding: 40px;
+}
+
+h1 {
+    font-family: 'Roboto';
+    word-spacing: 10px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    color: #932828;
+}
+
+.subtle {
+    color: #484848a4;
+    font-family: 'Roboto';
+}
+
+.title-container p {
+    font-family: 'Roboto';
+    font-size: 1.2rem;
+}
+
+.recipe-container {
+    width: 100%;
+    height: 700px;
+    background-color: #f8ffdcf0;
+    margin-bottom: 50px;
+    box-shadow: inset 0px 0px 20px 20px #0000001a;
+}
+
+.recipe-container ul {
+    display: flex;
+    height: 700px;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+
+.recipe-container li {
+    width: 500px;
+    height: 500px;
+    background-color: #ffffff;
+}
+
+.recipe-container img {
+    width: 100%;
+    height: 70%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.recipe-container img:hover {
+    cursor: pointer;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 40px 0px 40px;
+}
+
+.text a {
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #932828;
+    text-decoration: none;
+}
+
+.text a:hover {
+    color: #000000;
+}
+
+.rating {
+    display: flex;
+    justify-content: left;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.checked {
+    color: orange;
+}
+
+.fa-star-half-full {
+    color: orange;
+}
+
+.unchecked {
+    color: #e4e4e4;
+}
+
+.fake {
+    margin-left: 20px;
+    font-weight: 400;
+    font-family: 'Roboto';
+}
